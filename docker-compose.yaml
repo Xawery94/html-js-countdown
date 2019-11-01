@@ -5,5 +5,3 @@ services:
       context: .
     ports:
       - 8080:8080
-    environment:
-      - EVE_DATE="09 Decemver 2019 00:00:00 GMT+01:00"
