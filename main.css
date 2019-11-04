@@ -18,12 +18,15 @@ body {
 #centerContent {
     position: relative;
     top: 25%;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
 }
 
 #end {
     display: none;
     font-size: 100px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 #title {
@@ -48,7 +51,7 @@ a {
 #timer > div {
     font-size: var(--main-label-font);
     line-height: 1;
-    padding: 40px;
+    padding: 30px;
     display: inline-block;
 }
 
