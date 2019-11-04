@@ -26,9 +26,11 @@ spec:
       labels:
         app: eve
     spec:
+      imagePullSecrets:
+        - name: regcred
       containers:
         - name: eve
-          image: gcr.io/smartace-223409/eve:1.0.0
+          image: nexus.cctech/cctech/amd64/eve:1.0.1
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
