@@ -8,19 +8,22 @@
 
 body {
     background-image: url("assets/alpy-dark2.png");
-    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: 'Titillium Web', cursive;
     margin: 0 auto;
     text-align: center;
     font-weight: 300;
 }
 
-#centerContent {
-    position: relative;
+.centerContent {
+    position: absolute;
     top: 25%;
+    width: 100%;
     height: 300px;
     background: rgba(0, 0, 0, 0.5);
-    padding: 40px;
+    padding: 4em 0 4em 0;
 }
 
 #end {
@@ -80,4 +83,8 @@ span {
 #seconds {
     font-size: var(--main-label-font);
     color: var(--main-label-color);
+}
+
+.cbalink {
+    display: none !important;
 }
